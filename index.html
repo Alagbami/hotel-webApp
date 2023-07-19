@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unique Hotel</title>
+
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+	<!--font awesone cdn link-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<!-- custom css file link -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!--header section start -->
+
+<section class="header">
+
+	<div class="flex">
+		<a href="#home" class="logo">Unique Hotels&Resorts</a>
+		<a href="#availability" class="btn">check availability</a>
+		<div id="menu-btn" class="fas fa-bars"></div>
+
+	</div>
+	
+	<nav class="navbar" id="navbar">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#reservation">Reservation</a>
+		<a href="#gallery">Gallery</a>
+		<a href="#contact">Contact</a>
+		<a href="#reviews">Reviews</a>	
+	</nav>
+
+</section>
+<!-- the end of Header section -->
+
+<!-- home image slide  section starts -->
+
+<section class="home" id="home">
+
+	<div class="swiper home-slider">
+
+		<div class="swiper-wrapper">
+		
+		<div class="box swiper-slide">
+			<img src="images/home-img-1.jpg" alt="image">
+			<div class="flex">
+				<h3>Luxurious Rooms</h3>
+				<a href="#availability" class="btn">Check Availability</a>
+			</div>
+		</div>
+
+		<div class="box swiper-slide">
+			<img src="images/home-img-2.jpg" alt="image">
+			<div class="flex">
+				<h3>Foods and Drinks</h3>
+				<a href="#reservation" class="btn">Make a Reservation</a>
+			</div>
+		</div>
+
+		<div class="box swiper-slide">
+			<img src="images/home-img-3.jpg" alt="image">
+			<div class="flex">
+				<h3>Luxurious Halls</h3>
+				<a href="#contact" class="btn">Contact Us</a>
+			</div>
+		</div>
+
+		</div>
+      			<div class="swiper-button-next"></div>
+     		 	<div class="swiper-button-prev"></div>
+		</div>
+
+</section>
+<!-- home image slide  section ends here -->
+
+<!-- availability  section starts from here-->
+<section class="availability" id="availability"> 
+
+<form action="" method="post">
+	<div class="flex">
+		<div class="box">
+			<p>check in <span>*</span></p>
+			<input type="date" name="check_in" class="input" required>
+		</div>
+		<div class="box">
+			<p>check out <span>*</span></p>
+			<input type="date" name="check_out" class="input" required>
+		</div>
+		<div class="box">
+			<p>adults <span>*</span></p>
+			<select name="adults" class="input" required>
+			<option value="1">1 adults</option>
+			<option value="2">2 adults</option>	
+			<option value="3">3 adults</option>	
+			<option value="4">4 adults</option>	
+			<option value="5">5 adults</option>	
+			<option value="6">6 adults</option>	
+			</select>
+		</div>
+		<div class="box">
+			<p>childs <span>*</span></p>
+			<select name="childs" class="input" required>
+			<option value="-"> child</option>
+			<option value="1">1 child</option>
+			<option value="2">2 childs</option>	
+			<option value="3">3 childs</option>	
+			<option value="4">4 childs</option>	
+			<option value="5">5 childs</option>	
+			<option value="6">6 childs</option>	
+			</select>
+		</div>
+		<div class="box">
+			<p>rooms <span>*</span></p>
+			<select name="rooms" class="input" required>
+			<option value="-"> room</option>
+			<option value="1">1 room</option>
+			<option value="2">2 rooms</option>	
+			<option value="3">3 rooms</option>	
+			<option value="4">4 rooms</option>	
+			<option value="5">5 rooms</option>	
+			<option value="6">6 rooms</option>	
+			</select>
+		</div>
+	</div>
+	<input type="submit" value="check availability" name="check" class="btn">
+</form>
+
+</section>
+<!--- availability section ends here --->
+
+<!----- about section start from here-_-->
+
+<section class="about" id="about">
+	
+	<div class="row">
+		<div class="image">
+			<img src="images/about-img-1.png" alt="about1">
+		</div>
+		<div class="content">
+			<h3>best Staff</h3>
+			<p>We are proud to introduce our exceptional staff member, DEBORAH and TOBI,
+				who shines as a waiter here at Unique Hotel. 
+				With a passion for hospitality and a commitment
+				to providing an unforgettable dining experience, DEBORAH and TOBI stands out as one of our finest team members.
+			</p>
+			<a href="#reservation" class="btn">make a reservation</a>
+		</div>
+	</div>
+
+	<div class="row revers">
+		<div class="image">
+			<img src="images/about-img-2.jpg" alt="about2">
+		</div>
+		<div class="content">
+			<h3>best Foods</h3>
+			<p> 
+				Experience a world of culinary excellence at Best Foods. 
+				We believe that great food is not just about taste;
+				 it's an art form that tantalizes the senses and creates unforgettable memories. 
+				Our team of passionate chefs and dedicated staff work tirelessly to ensure that every dish is a masterpiece.
+			</p>
+			<a href="#contact" class="btn">Contact Us</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="image">
+			<img src="images/about-img-3.jpg" alt="about1">
+		</div>
+		<div class="content">
+			<h3>swimming pool</h3>
+			<p>
+				Escape the heat and immerse yourself in pure relaxation at our exquisite swimming pool. 
+				Designed with your utmost comfort in mind,our pool area offers a tranquil retreat where you can unwind, 
+				rejuvenate, and bask in the beauty of the surroundings.</p>
+			<a href="#availability" class="btn">check availability</a>
+		</div>
+	</div>
+
+</section>
+
+<!----- about section end from here-_-->
+
+<!----- service section start from here-_-->
+
+<section class="service" id="service">
+	<div class="box-container">
+
+		<div class="box">
+			<img src="images/icon-1.jpg" alt="">
+			<h3>Food & drinks</h3>
+			<p>Discover a delightful array of culinary masterpieces and exquisite 
+				libations that will tantalize your taste buds and leave you craving for more...
+			</p>
+		</div>
+		
+		<div class="box">
+			<img src="images/icon-2.jpg" alt="">
+			<h3>out drinking</h3>
+			<p>Sip on expertly crafted beverages that are a perfect blend of creativity, 
+				quality, and flavor, elevating your drinking experience to new heights.
+			</p>
+		</div>
+
+		<div class="box">
+			<img src="images/icon-3.jpg" alt="">
+			<h3>Beach View</h3>
+			<p>
+				Indulge in breathtaking panoramic views of pristine shores and azure waters,
+				creating an idyllic backdrop for your perfect beachside getaway
+			</p>
+		</div>
+
+		<div class="box">
+			<img src="images/icon-4.jpg" alt="">
+			<h3>Decoration</h3>
+			<p>
+				Immerse yourself in an enchanting atmosphere adorned with exquisite decor, 
+				where every detail is thoughtfully curated to create a captivating and memorable experience.
+			</p>
+		</div>
+
+		<div class="box">
+			<img src="images/icon-5.jpg" alt="">
+			<h3>Swimming pool</h3>
+			<p>Escape the heat and immerse yourself in pure relaxation at our exquisite swimming pool</p>
+		</div>
+
+		<div class="box">
+			<img src="images/icon-6.jpg" alt="">
+			<h3>Resort Beach</h3>
+			<p>  
+				Experience the epitome of coastal luxury at our pristine beachfront resort, where sun,
+				sand, and serenity converge to create an unforgettable seaside escape.</p>
+		</div>
+
+	</div>
+</section>
+
+
+<!----- service section end from here-_-->
+
+
+<!----- reservation section start from here --->
+<section class="reservation" id="reservation">
+	
+	<form action="" method="post">
+		<h3>make a Reservation</h3>
+	<div class="flex">
+		<div class="box">
+			<p>check in <span>*</span></p>
+			<input type="date" name="check_in" class="input" required>
+		</div>
+		<div class="box">
+			<p>check out <span>*</span></p>
+			<input type="date" name="check_out" class="input" required>
+		</div>
+		<div class="box">
+			<p>adults <span>*</span></p>
+			<select name="adults" class="input" required>
+			<option value="1">1 adults</option>
+			<option value="2">2 adults</option>	
+			<option value="3">3 adults</option>	
+			<option value="4">4 adults</option>	
+			<option value="5">5 adults</option>	
+			<option value="6">6 adults</option>	
+			</select>
+		</div>
+		<div class="box">
+			<p>childs <span>*</span></p>
+			<select name="childs" class="input" required>
+			<option value="-"> child</option>
+			<option value="1">1 child</option>
+			<option value="2">2 childs</option>	
+			<option value="3">3 childs</option>	
+			<option value="4">4 childs</option>	
+			<option value="5">5 childs</option>	
+			<option value="6">6 childs</option>	
+			</select>
+		</div>
+		<div class="box">
+			<p>rooms <span>*</span></p>
+			<select name="rooms" class="input" required>
+			<option value="-"> room</option>
+			<option value="1">1 room</option>
+			<option value="2">2 rooms</option>	
+			<option value="3">3 rooms</option>	
+			<option value="4">4 rooms</option>	
+			<option value="5">5 rooms</option>	
+			<option value="6">6 rooms</option>	
+			</select>
+		</div>
+	</div>
+	<input type="submit" value="check availability" name="check" class="btn">
+</form>
+
+</section>
+
+<!----- reservation section end  from here --->
+
+<!-- gallery section starts  from here-->
+
+	<section class="gallery" id="gallery">
+		
+	<div class="swiper gallery-slider">
+		<div class="swiper-wrapper">
+			<img src="images/gallery-img-7.jpg" class="swiper-slide" alt="">
+			<img src="images/gallery-img-2.jpg" class="swiper-slide" alt="">
+			<img src="images/gallery-img-3.jpg" class="swiper-slide" alt="">
+			<img src="images/gallery-img-4.jpg" class="swiper-slide" alt="">
+			<img src="images/gallery-img-5.jpg" class="swiper-slide" alt="">
+			<img src="images/gallery-img-6.jpg" class="swiper-slide" alt="">
+		</div>
+				<div class="swiper-pagination"></div>
+		</div>
+
+	</section>
+
+<!-- gallery section end from here -->
+
+
+<!-- contact section start from here -->
+
+<section class="contact" id="contact">
+	<div class="row">
+		<form action="" method="post">
+			<h3>Send us message</h3>
+			<input type="text" name="name" required maxlength="50"
+			placeholder="enter your name" class="box">
+
+			<input type="email" name="email" required maxlength="50" 
+			placeholder="enter your email" class="box">
+
+			<input type="number" name="number" required maxlength="10" min="0" 
+			max="9999999999" placeholder="enter your number" class="box">
+
+			<textarea name="msg" class="box" required maxlength="1000"
+			 placeholder="enter your message" cols="30" rows="10"></textarea>
+			 <input type="submit" value="send message" name="send" class="btn">
+		</form>
+
+		<div class="faq">
+			<h3 class="title">Frequently Asked Questions</h3>
+			<div class="box active">
+				<h3>How to cancel?</h3>
+				<p>To cancel your reservation, please contact our customer service team at <b>+234 8094770313</b> or send us an email at [email address]. Our dedicated staff will assist you in the cancellation process.</p>
+			</div>
+			<div class="box">
+				<h3>Is there any vacancy?</h3>
+				<p>We currently have availability for your desired dates. To make a reservation, simply visit our website or call our reservation hotline at [phone number]. Our friendly staff will be delighted to assist you.</p>
+			</div>
+			<div class="box">
+				<h3>What are the payment methods?</h3>
+				<p>We accept various payment methods, including credit cards (Visa, Mastercard, American Express), bank transfers, and cash payments. Please let us know your preferred payment method, and we will gladly accommodate your request.</p>
+			</div>
+			<div class="box">
+				<h3>How to claim coupon codes?</h3>
+				<p>To claim your coupon code, simply enter it during the online reservation process or provide it to our reservation team when making a booking over the phone. The applicable discount will be applied to your reservation.</p>
+			</div>
+			<div class="box">
+				<h3>What are the age requirements?</h3>
+				<p>Age requirements may vary depending on the specific services and facilities. For age-specific policies regarding reservations, children's activities, or access to certain areas, kindly refer to our terms and conditions or contact our customer service team for further information.</p>
+			</div>
+		</div>		
+	</div>
+
+</section>
+
+<!-- contact section ends from here -->
+
+<!-- reviews section starts from here -->
+
+<section class="reviews" id="reviews">
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/pic-1.jpg" alt="">
+                <h3>Kunle Remi</h3>
+                <p>Amazing experience! The service was impeccable, and the attention to detail was outstanding. I highly recommend this place for anyone looking for a memorable getaway.</p>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic-2.jpg" alt="">
+                <h3>Wale Adenekun</h3>
+                <p>From the moment I arrived, I was greeted with warmth and hospitality. The amenities and facilities exceeded my expectations, and the staff went above and beyond to ensure my stay was exceptional.</p>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic-3.jpg" alt="">
+                <h3>Bukky Lawal</h3>
+                <p>This place is a hidden gem! The serene environment, coupled with the breathtaking views, made my stay truly unforgettable. The rooms were comfortable, and the staff was friendly and attentive.</p>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic-4.jpg" alt="">
+                <h3>Nneka Patrick</h3>
+                <p>I had a wonderful time at this resort. The beachfront location, coupled with the range of activities available, made it the perfect destination for both relaxation and adventure. I can't wait to come back!</p>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic-5.jpg" alt="">
+                <h3>Usman Ahmed</h3>
+                <p>From the moment I stepped foot into this resort, I felt like royalty. The staff was incredibly attentive, and the dining options were exquisite. The attention to detail in every aspect was truly remarkable.</p>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/pic-6.jpg" alt="">
+                <h3>Aminat Abu</h3>
+                <p>An absolute paradise! The well-maintained grounds, coupled with the stunning pool area, created the perfect ambiance for relaxation. The staff's warm hospitality made me feel right at home.</p>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+<!-- reviews section ends from here -->
+
+<!-- footers section start from here -->
+<section class="footer">
+
+	<div class="box-container">
+
+		<div class="box">
+			<a href="tel:+2348094770313"><i class="fas  fa-phone"></i> +2348094770313</a>
+			<a href="tel:+2348094770313"><i class="fas  fa-phone"></i> +2348094770313</a>			
+			<a href="mailto:adelekeabiodun1996@gmail.com"><i class="fas  fa-envelope"></i> 
+			unique@gmail.com</a>			
+			<a href="#"><i class="fas  fa-map-marker-alt"></i> 25,Tiamiyu street, V.I Lagos
+			Nigeria </a>			
+		</div>
+
+		<div class="box">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#reservation">Reservation</a>
+		<a href="#gallery">Gallery</a>
+		<a href="#contact">Contact</a>
+		<a href="#reviews">Reviews</a>	
+		</div>
+
+		<div class="box">
+			<a href="https://www.facebook.com/adeleke.abiodun.549/">Facebook <i class="fab fa-facebook-f"></i></a>
+			<a href="https://github.com/Alagbami/hotel-webApp">GitHub <i class="fab fa-twitter"></i></a>		
+			<a href="https://www.instagram.com/i.am.alagbami/">Instagram <i class="fab fa-instagram"></i></a>		
+			<a href="www.linkedin.com/in/abiodun-adeleke-37614323a">Linkedin <i class="fab fa-linkedin"></i></a>				
+		</div>
+		
+	</div>
+	<div class="credit">&copy; copyright @ <span id="current-year"></span> LekeTech | all rights reserved</div>
+</section>
+
+
+
+
+<!-- reviews section ends from here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- from swiperjs.com -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+	// Get the current year
+	var currentYear = new Date().getFullYear();
+  
+	// Update the HTML element with the current year
+	document.getElementById("current-year").textContent = currentYear;
+  </script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
